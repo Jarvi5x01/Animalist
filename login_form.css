@@ -1,0 +1,117 @@
+body {
+    background: rgba(0, 0, 0, .65) url("Monika_DDLC_4k.png");
+    background-blend-mode: darken;
+    margin: 0;
+    padding: 0;
+    background-image: url("Monika_DDLC_4k.png");
+    background-attachment: "fixed";
+    background-repeat: "fixed";
+    background-size: 1600px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: white;
+    padding: 5px 20px;
+    font-size: 15px;
+    transition: 0.5s;
+    font-family: "Roboto";
+    text-decoration: none;
+    border: 1px solid white;
+    border: transparent;
+}
+
+.main-nav li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.loginbox {
+    width: 320px;
+    height: 340px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.butn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: 'Lucida Sans';
+    color: #39373a;
+    font-size: 18px;
+    background: #ff000085;
+    padding: 0px 40px 10px 40px;
+    text-decoration: none;
+}
+
+.butn:hover {
+    background: #ffff00;
+    text-decoration: none;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover {
+    color: #b007ff;
+}

@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(04_2.jpg);
+ 	font-family:"Roboto";
+ 	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 25px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color:white;
+	padding: 5px 20px;
+	font-size: 15px;
+	transition: 0.5s;
+	font-family: "Roboto";
+	text-decoration: none;
+	border: 1px solid white;
+	border:transparent;
+}
+.main-nav li a:hover
+{
+	background-color: white;
+	color:black;
+}
+.logo img{
+	float:left;
+	width:150px;
+	height: auto;
+}
+.row
+{
+	max-width: 1500px; 
+	margin: 0px;
+
+}
+
+.text h1{
+ font-size:40px;
+ color:rgb(189, 94, 39);
+ text-align:center;
+ font-weight:bold;
+}
+
+
+
+.first{
+ width: 200px;
+ height: 200px;
+margin-left: 300px;
+ border-radius:80%;
+}
+
+.second{
+	width: 200px;
+ height: 250px;
+ border-radius:80%;
+ margin-left: 550px;
+}
+
+
+
+.box1
+{
+border-radius: 10px;
+padding: 8px;
+background-image: url(black_hole.jpg);
+object-fit: none;
+margin-top: 20px;
+margin-left:230px;
+width: 300px;
+height: 300px;
+box-shadow: 3px 3px grey;
+
+}
+.box1 h1
+{
+	text-align: center;
+	text-shadow: 1px 1px blue;
+}
+.box1 p
+{
+text-align: justify;
+letter-spacing: 3px;
+color: rgb(255, 255, 255);
+}
+.box2
+{
+border-radius: 10px;
+padding: 8px;
+background-image: url(black_hole.jpg);
+margin-top: -320px;
+margin-left:1000px;
+width: 300px;
+height: 300px;
+box-shadow: 3px 3px grey;
+border-radius: 20px;
+
+}
+.box2 h1
+{
+	text-align: center;
+	text-shadow: 1px 1px blue;
+}
+.box2 p
+{
+text-align: justify;
+letter-spacing: 3px;
+color: white;
+}
